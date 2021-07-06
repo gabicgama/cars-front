@@ -1,0 +1,108 @@
+.car-container {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.car-card {
+  width: 300px;
+  height: 347px;
+  background-color: #ededed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.car-card-top img {
+  width: 220.72px;
+  height: 165px;
+}
+
+.car-card-bottom h1 {
+  font-size: 18px;
+  color: #000;
+  text-align: center;
+}
+
+.car-card-bottom p {
+  font-size: 14px;
+  color: #585858;
+  font-style: italic;
+  width: 264px;
+  margin-top: 14px;
+  margin-bottom: 28px;
+}
+
+.car-card-bottom button {
+  color: #fff;
+  background-color: #00285f;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  width: 257.93px;
+  height: 40px;
+  font-size: 14px;
+}
+
+@media (min-width: 576px) {
+  .car-container {
+    margin-bottom: 30px;
+  }
+
+  .car-card {
+    width: 238px;
+  }
+
+  .car-card-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .car-card-bottom p {
+    font-size: 12px;
+    text-align: left;
+    width: 220px;
+  }
+
+  .car-card-bottom button {
+    width: 220px;
+  }
+}
+
+@media (min-width: 768px) {
+  .car-card {
+    width: 329px;
+  }
+
+  .car-card-bottom p {
+    font-size: 14px;
+    width: 296px;
+  }
+
+  .car-card-bottom button {
+    width: 296px;
+  }
+}
+
+@media (min-width: 992px) {
+  .car-card {
+    width: 296px;
+  }
+
+  .car-card-bottom p {
+    width: 257.31px;
+  }
+
+  .car-card-bottom button {
+    width: 257.31px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .car-card {
+    width: 306px;
+    margin-left: 10px;
+  }
+}
